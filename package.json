@@ -23,6 +23,6 @@
     "type": "git",
     "url": "https://github.com/bigorangemachine/BOM-GLaDioS.js.git"
   },
-  "main": "utils.js",
+  "main": "index.js",
   "version": "0.0.1"
 }
