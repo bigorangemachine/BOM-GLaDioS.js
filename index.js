@@ -6,7 +6,7 @@
 */
 
 module.exports = function(){//dependancies - underscore currently unused
-    var utils=require('bom-nodejs-utils'),merge=require('merge'),_=require('underscore');
+    var utils=require('bom-utils'),merge=require('merge'),_=require('underscore');
     function ecapsulateTask(func,alt){this._func=func;this._this=alt;}
     var self_init=function(opts){//private init method
             var self=this;
