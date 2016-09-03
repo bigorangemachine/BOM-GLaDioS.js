@@ -1,6 +1,6 @@
 # GLaDioS.js
 
-This is a 'blocking' javascript plugin/filter/hook feature to easily expand code features to improve separator of concerns without a separation of features.
+This is a 'blocking' javascript plugin/filter/hook feature to easily expand code features to improve separation of concerns without a separation of features.
 
 Its recommended to take advantage of JavaScripts 'Pass by Reference' (or 'Copy of a Reference') of Objects (it'd be the same as using JavaScripts pub/sub functionality).  One way is highlight below in 'Argumentless callback' and 'Argumentful callback'.
 
