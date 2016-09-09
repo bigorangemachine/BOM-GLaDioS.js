@@ -98,7 +98,7 @@ module.exports = function(){//dependancies - underscore currently unused
             root_callback_get=function(){//getter
                 return root_obj.root_var;},
             silent_obj={'_val':(typeof(opts.silent)==='boolean'?opts.silent:false)};
-        if(typeof(Object.defineProperty)!=='function' && (typeof(this.__defineGetter__)==='function' || typeof(this.__defineSetter__)==='function')){//use pre IE9
+        if((typeof(Object.defineProperty)!=='function' && (typeof(this.__defineGetter__)==='function' || typeof(this.__defineSetter__)==='function'))){//use pre IE9
             this.__defineSetter__('plugin', plug_set);
             this.__defineGetter__('plugin', plug_get);
             //read only!
